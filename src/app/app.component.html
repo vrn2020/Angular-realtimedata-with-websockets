@@ -1,0 +1,28 @@
+<table class="styled-table">
+  <thead>
+    <tr>
+        <th>Trade#</th>
+        <th>Date</th>
+        <th>Buy/ Sell</th>
+        <th>Notional</th>
+        <th>Coupon</th>
+        <th>Currency</th>
+        <th>ReferenceEntity</th>
+        <th>Ticker</th>
+        <th>Short Name</th>
+    </tr>
+</thead>
+<tbody>
+  <tr *ngFor="let f of stockQuote.data">
+      <td>{{f.TradeId}}</td>
+      <td>{{f.TradeDate}}</td>
+      <td>{{f.BuySell}}</td>
+      <td class="changable-1">{{f.Notional}}</td>
+      <td class="changable-2">{{f.Coupon}}</td>
+      <td>{{f.Currency}}</td>
+      <td>{{f.ReferenceEntity}}</td>
+      <td>{{f.Ticker}}</td>
+      <td>{{f.ShortName}}</td>
+  </tr>
+</tbody>
+</table>

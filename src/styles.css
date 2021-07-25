@@ -1,0 +1,34 @@
+
+::after,
+::before {
+ -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+}
+
+::selection {
+ background: #eee;
+}
+
+::selection {
+ background: #eee;
+}
+
+* {
+ -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    padding: 0;
+    margin: 0;
+  }
+  
+  html {
+    font-size: 10px;
+  }
